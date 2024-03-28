@@ -1,5 +1,5 @@
 export default function Home(){
     return (
-        <h1>Homn em construção ... </h1>
+        <h1>Home em construção ... </h1>
     )
 }
