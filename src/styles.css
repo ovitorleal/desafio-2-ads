@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+:root{
+    --cor-primaria: #5E90B5;
+    --cor-secundaria: #9dc9f5;
+}
+
+
+/* primeiro: resetar o css */
+*{
+    margin: 0;  /*da borda pra fora, margin*/
+    padding: 0; /*da borda pra dentro, padding*/
+    box-sizing: border-box; /* todo elemento tem que respeitar a borda*/
+    outline: var(--cor-primaria); /*mostrar contorno quando focado*/
+    font-family: "Anta", sans-serif; /*familia da fonte*/
+    }
+  
+
+
+footer{
+    width: 100%;
+       
+}
+#copyright{
+        text-align: center;
+        background-color: var(--cor-secundaria);
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        font-size: 14px;
+        font-family: monospace;
+        font-weight:  bold;
+        
+}
+#copyright a {
+        font-family: monospace;
+        font-style: italic;
+        
+    }

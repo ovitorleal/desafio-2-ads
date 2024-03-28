@@ -1,0 +1,122 @@
+body{
+    background-color: #fff;
+}
+img {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    margin-top: 20px; 
+    margin-left: auto;  
+    margin-right: auto;
+   
+}
+
+.caixa-login{
+    background-color: #fff;
+    width: 250px; /*largura da caixa de login*/
+    height: auto;
+    margin: auto; /*centralizando automaticamente pela largura. tam obj - tam tel = obj exatamente no meio*/
+    border: 2px  solid #5f8fb4;/*grossura, tipo e cor da borda da caixa*/
+    margin-top: 50px;
+    padding: 20px;
+    justify-content: center;
+    font-family: "Kode Mono", monospace ;
+}
+.email{
+    margin-bottom: 20px;
+}
+
+
+.titulo-login{
+    text-align: center;
+    color: var(--cor-primaria);
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: "Kode Mono", monospace ;
+}
+
+label{
+    font-size: 16px;
+    margin-top:20px ;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    border: #5f8fb4 1px solid ;
+    border-radius: 8px;
+    font-family: "Anta", sans-serif;
+    
+}
+
+#btn-entrar {
+    /* cor de fundo do botao */
+    background-color: var(--cor-primaria);
+    /* cor do negrito, tamanho e tipo de fonte */
+    font-family: "Anta", sans-serif;
+    font-size: 15px;
+    /* cor principal da fonte */
+    color:#fff;
+    /* espaçamento das lentras dentro do botao */
+    letter-spacing: 8px;
+    /* largura do botao */
+    width: 100% ;
+    /* altura do botao */
+    height: 25px;
+    /* arredondamento das bordas do botao */
+    border-radius: 8px;
+    /* cor da borda do botao */
+    border-color: var(--cor-primaria);
+    justify-content: center;  
+    
+}
+#btn-entrar:hover{
+    background-color: var(--cor-secundaria);
+    cursor: pointer;
+}
+
+.esqueci-minha-senha  {
+    color: var(--cor-secundaria);
+    font-size: 12px;
+    font-weight: 550;
+    text-align: right;
+    font-family:  monospace ; 
+    padding-top: 20px;  
+}
+
+.novo-usuario  {
+    color: var(--cor-secundaria);
+    font-size: 12px;
+    font-weight: 550;
+    text-align: right;
+    font-family:  monospace ;  
+    margin-top: 12px; 
+    padding-bottom: 20px;
+}
+#loading{
+    display: none;
+}
+
+footer{
+    width: 100%;
+}
+#copyright{
+    text-align: center;
+    background-color: var(--cor-secundaria);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    font-size: 14px;
+    font-family: monospace;
+    font-weight:  bold;
+    
+}
+#copyright a {
+    font-family: monospace;
+    font-style: italic;
+    
+}
+    
+
+
